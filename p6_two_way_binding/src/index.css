@@ -1,0 +1,22 @@
+@import "tailwindcss";
+*{
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hide scrollbar but allow scrolling */
+
+/* Chrome, Edge, Safari */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+/* Optional: IE */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+}
